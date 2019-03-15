@@ -3,7 +3,8 @@ package com.codepath.apps.restclienttemplate.models;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class Tweet {    public String body;
+public class Tweet {
+    public String body;
     public long uid;
     public String createdAt;
     public User user;
@@ -18,8 +19,5 @@ public class Tweet {    public String body;
         return tweet;
     }
 
-//    public String getFormattedTimeStamp() {
-//        return TimeFormatter.getTimeDifference(createdAt);
-//    }
 }
 
